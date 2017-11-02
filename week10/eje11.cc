@@ -9,6 +9,9 @@ private:
 public:
     Complejo(float a, float b);
     void print();
+    void suma(float a, float b);
+    void prodEscalar(int x);
+    void prodComplejo(float a, float b);
 };
 
 Complejo::Complejo(float a, float b){
